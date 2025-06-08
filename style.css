@@ -7,12 +7,17 @@ body {
   text-align: center;
   margin-top: 50px;
 }
+/*==================================================
 
+Gallery
+
+==================================================*/
 .gallery-container {
   border: 1px solid #ccc;
   padding: 20px;
   display: inline-block;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 #galleryImage {
@@ -37,11 +42,11 @@ body {
   background-color: #218838;
 }
 
-/*==============================
+/*==================================================
 
 Box
 
-==============================*/
+==================================================*/
 
 .box {
   width: 720px;
@@ -86,9 +91,11 @@ Box
   height: 100%;
   border-color: rgba(255, 255, 255, 0.3);
   transition-delay: 0s;
+  border-radius: 5px;
 }
 .box:hover {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(15px);
   transition-delay: 0.3s;
+  border-radius: 5px;
 }

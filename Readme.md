@@ -6,7 +6,7 @@
 <h1>HTML ファイル (index.html) の解説</h1>
 このファイルは、ウェブページの構造を定義しています。
 
-<h3><!DOCTYPE html></h3>: 
+<h3>- <!DOCTYPE html>: </h3> 
 これは、このドキュメントがHTML5で書かれていることをブラウザに伝えます。
 
 <h3><html lang="ja">: </h3>

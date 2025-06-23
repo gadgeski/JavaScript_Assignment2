@@ -6,27 +6,38 @@
 <h1>HTML ファイル (index.html) の解説</h1>
 このファイルは、ウェブページの構造を定義しています。
 
-- <!DOCTYPE html>: これは、このドキュメントがHTML5で書かれていることをブラウザに伝えます。
+<h3><!DOCTYPE html>: </h3>
+これは、このドキュメントがHTML5で書かれていることをブラウザに伝えます。
 
-- <html lang="ja">: ドキュメントのルート要素です。lang="ja" は、このページの主要な言語が日本語であることを示しています。
+<h3><html lang="ja">: </h3>
+ドキュメントのルート要素です。lang="ja" は、このページの主要な言語が日本語であることを示しています。
 
-- <head>: ウェブページのメタ情報（ブラウザに表示されない情報）が含まれます。
+<h3><head>: </h3>
+ウェブページのメタ情報（ブラウザに表示されない情報）が含まれます。
 
-  - <meta charset="UTF-8" />: 文字エンコーディングを指定し、日本語を含む様々な文字が正しく表示されるようにします。
+<h3><meta charset="UTF-8" />: </h3>
+文字エンコーディングを指定し、日本語を含む様々な文字が正しく表示されるようにします。
 
-  - <meta name="viewport" content="width=device-width, initial-scale=1.0" />: レスポンシブデザインのための設定です。デバイスの幅に合わせてページの表示を調整し、初期のズームレベルを1.0に設定します。
+<h3><meta name="viewport" content="width=device-width, initial-scale=1.0" />: </h3>
+レスポンシブデザインのための設定です。デバイスの幅に合わせてページの表示を調整し、初期のズームレベルを1.0に設定します。
 
-  - <title>画像ギャラリーの例</title>: ブラウザのタブやウィンドウのタイトルバーに表示されるページのタイトルです。
+<h3><title>画像ギャラリーの例</title>: </h3>
+ブラウザのタブやウィンドウのタイトルバーに表示されるページのタイトルです。
 
-  - <link rel="stylesheet" href="style.css" />: style.css という外部のCSSファイルを読み込み、ページのスタイルを適用します。
+<h3><link rel="stylesheet" href="style.css" />: </h3>
+style.css という外部のCSSファイルを読み込み、ページのスタイルを適用します。
 
-- <body>: ウェブページに表示されるすべてのコンテンツが含まれます。
+<h3><body>: </h3>
+ウェブページに表示されるすべてのコンテンツが含まれます。
 
-  - <div class="box">JavaScript画像ギャラリー</div>: "JavaScript画像ギャラリー"というテキストを含む div 要素です。後述のCSSで特別な装飾が施されます。
+<h3><div class="box">JavaScript画像ギャラリー</div>: </h3>
+"JavaScript画像ギャラリー"というテキストを含む div 要素です。後述のCSSで特別な装飾が施されます。
 
-  - <br />: 改行タグを行い、コンテンツを読みやすくします。
+<h3><br />: </h3>
+改行タグを行い、コンテンツを読みやすくします。
 
-<div class="gallery-container">: 画像とボタンをまとめるためのコンテナです。
+<h3><div class="gallery-container">: </h3>
+画像とボタンをまとめるためのコンテナです。
 
     - <img id="galleryImage" src="Ver2_Stylish_Interior2025.png" alt="ギャラリー画像" />: 画像を表示するための img 要素です。
 

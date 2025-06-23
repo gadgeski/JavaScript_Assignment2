@@ -44,87 +44,128 @@
   <h1>CSS ファイル (style.css) の解説</h1>
   このファイルは、HTML要素の見た目（色、サイズ、配置など）を定義しています。
 
-- body: ページ全体のスタイルを設定します。
+<h3>body: </h3>
+ページ全体のスタイルを設定します。
 
-  - width: 100%; height: 100vh;: 幅をビューポートの 100%、高さをビューポートの高さ全体に設定します。
+<h3>width: </h3>
+  
+<h3>100%; height: 100vh;: </h3>
+  幅をビューポートの 100%、高さをビューポートの高さ全体に設定します。
 
-  - background: url(Ver2_Stylish_Interior2025_6.png) no-repeat;: 背景画像を設定し、繰り返し表示しないようにします。
+<h3>background: url(Ver2_Stylish_Interior2025_6.png) no-repeat;: </h3>
+背景画像を設定し、繰り返し表示しないようにします。
 
-  - background-size: cover;: 背景画像が要素全体を覆うように拡大・縮小します。
+<h3>background-size: cover;: </h3>
+背景画像が要素全体を覆うように拡大・縮小します。
 
-  - font-family: Arial, sans-serif;: フォントを設定します。
+<h3>font-family: Arial, sans-serif;: </h3>
+フォントを設定します。
 
-  - text-align: center;: テキストを中央揃えにします。
+<h3>text-align: center;: </h3>
+テキストを中央揃えにします。
 
-  - margin-top: 50px;: 上部に 50 ピクセルの余白を設定します。
+<h3>margin-top: 50px;: </h3>
+上部に 50 ピクセルの余白を設定します。
 
-    <h3>Gallery セクションのスタイル</h3>
+<h3>Gallery セクションのスタイル</h3>
 
-- .gallery-container: 画像とボタンを囲む div のスタイルです。
+<h3>.gallery-container: </h3>
+画像とボタンを囲む div のスタイルです。
 
-  - border, padding, display, box-shadow, border-radius: 枠線、余白、表示形式、影、角の丸みを設定し、画像ギャラリーの見た目を整えます。
+<h3>border, padding, display, box-shadow, border-radius: </h3>
+枠線、余白、表示形式、影、角の丸みを設定し、画像ギャラリーの見た目を整えます。
 
-- #galleryImage: ギャラリー画像のスタイルです。
+<h3>#galleryImage: </h3>
+ギャラリー画像のスタイルです。
 
-  - width: 500px; height: 400px;: 画像の幅と高さを固定します。
+<h3>width: 500px; height: 400px;: </h3>
+画像の幅と高さを固定します。
 
-  - object-fit: cover;: 画像の縦横比を維持したまま、指定された幅と高さに収まるように調整します。はみ出る部分は切り取られます。
+<h3>object-fit: cover;: </h3>
+画像の縦横比を維持したまま、指定された幅と高さに収まるように調整します。はみ出る部分は切り取られます。
 
-  - margin-bottom: 20px; border: 2px solid #ddd;: 下部に余白と枠線を設定します。
+<h3>margin-bottom: 20px; border: 2px solid #ddd;: </h3>
+下部に余白と枠線を設定します。
 
-- #nextButton: 「次の画像」ボタンのスタイルです。
+<h3>#nextButton: </h3>
+「次の画像」ボタンのスタイルです。
 
-  - padding, font-size, cursor, background-color, color, border, border-radius: 内側の余白、フォントサイズ、カーソル、背景色、文字色、枠線、角の丸みを設定し、ボタンの見た目を定義します。
+<h3>padding, font-size, cursor, background-color, color, border, border-radius: </h3>
+内側の余白、フォントサイズ、カーソル、背景色、文字色、枠線、角の丸みを設定し、ボタンの見た目を定義します。
 
-- #nextButton:hover: ボタンにマウスが乗ったときのスタイルです。
+<h3>#nextButton:hover: </h3>
+ボタンにマウスが乗ったときのスタイルです。
 
-  - background-color: #218838;: 背景色を暗くして、ホバーエフェクト（マウスオーバー時の視覚効果）を提供します。
+<h3>background-color: #218838;: </h3>
+背景色を暗くして、ホバーエフェクト（マウスオーバー時の視覚効果）を提供します。
 
-    <h3>Box セクションのスタイル</h3>
+  <h3>Box セクションのスタイル</h3>
 
-- .box: "JavaScript 画像ギャラリー"のテキストを含む div のスタイルです。
+<h3>.box: </h3>
+"JavaScript 画像ギャラリー"のテキストを含む div のスタイルです。
 
-  - width, height, margin, display, align-items, justify-content: ボックスのサイズ、中央配置、テキストの垂直・水平方向の中央揃えを設定します。
+<h3>width, height, margin, display, align-items, justify-content: </h3>
+ボックスのサイズ、中央配置、テキストの垂直・水平方向の中央揃えを設定します。
 
-  - color, font-size, font-weight: 文字の色、サイズ、太さを設定します。
+<h3>color, font-size, font-weight: </h3>
+文字の色、サイズ、太さを設定します。
 
-  - position: relative;: 子要素（::before, ::after）の配置基準となります。
+<h3>position: relative;: </h3>
+子要素（::before, ::after）の配置基準となります。
 
-  - transition: 0.4s;: プロパティが変化する際に 0.4 秒かけてアニメーションするように設定します。
+<h3>transition: 0.4s;: </h3>
+プロパティが変化する際に 0.4 秒かけてアニメーションするように設定します。
 
-- .box::before, .box::after: .box 要素の仮想要素（擬似要素）です。これらは HTML には存在しませんが、CSS で生成され、要素の装飾に使われます。ここでは、ボックスの四隅に装飾的なボーダーを作成しています。
+<h3>.box::before, .box::after: </h3>
+.box 要素の仮想要素（擬似要素）です。これらは HTML には存在しませんが、CSS で生成され、要素の装飾に使われます。ここでは、ボックスの四隅に装飾的なボーダーを作成しています。
 
-  - content: "";: 仮想要素のコンテンツを空に設定します。
+<h3>content: "";: </h3>
+仮想要素のコンテンツを空に設定します。
 
-  - width: 50px; height: 50px;: 初期サイズを設定します。
+<h3>width: 50px; height: 50px;: </h3>
+初期サイズを設定します。
 
-  - border-top, border-left, border-bottom, border-right: 上、左、下、右にボーダーを設定します。
+<h3>border-top, border-left, border-bottom, border-right: </h3>
+上、左、下、右にボーダーを設定します。
 
-  - position: absolute;: 親要素（.box）に対して絶対的な位置で配置されます。
+<h3>position: absolute;: </h3>
+親要素（.box）に対して絶対的な位置で配置されます。
 
-  - top, left, bottom, right: それぞれの位置を調整します。
+<h3>top, left, bottom, right: </h3>
+それぞれの位置を調整します。
 
-  - transition: 0.4s; transition-delay: 0.5s;: 変化にアニメーション効果を付け、0.5 秒の遅延を設定します。
+<h3>transition: 0.4s; transition-delay: 0.5s;: </h3>
+変化にアニメーション効果を付け、0.5 秒の遅延を設定します。
 
-- .box:hover:before, .box:hover::after: .box にマウスが乗ったときに、::before と ::after 仮想要素のスタイルを変更します。
+<h3>.box:hover:before, .box:hover::after: </h3>
+.box にマウスが乗ったときに、::before と ::after 仮想要素のスタイルを変更します。
 
-  - width: 100%; height: 100%;: 仮想要素がボックス全体を覆うように拡大します。
+<h3>width: 100%; height: 100%;: </h3>
+仮想要素がボックス全体を覆うように拡大します。
 
-  - border-color: rgba(255, 255, 255, 0.3);: ボーダーの色を変更します。
+<h3>border-color: </h3>
+rgba(255, 255, 255, 0.3);: ボーダーの色を変更します。
 
-  - transition-delay: 0s;: 遅延なしでアニメーションが開始されます。
+<h3>transition-delay: 0s;: </h3>
+遅延なしでアニメーションが開始されます。
 
-  - border-radius: 5px;: 角を丸くします。
+<h3>border-radius: 5px;: </h3>
+角を丸くします。
 
-- .box:hover: .box にマウスが乗ったときのスタイルです。
+<h3>.box:hover: </h3>
+.box にマウスが乗ったときのスタイルです。
 
-  - background: rgba(255, 255, 255, 0.1);: 背景色を半透明の白にします。
+<h3>background: </h3>
+rgba(255, 255, 255, 0.1);: 背景色を半透明の白にします。
 
-  - backdrop-filter: blur(15px);: 背景にある要素をぼかす効果を適用します。
+<h3>backdrop-filter: blur(15px);: </h3>
+背景にある要素をぼかす効果を適用します。
 
-  - transition-delay: 0.3s;: 0.3 秒の遅延を設定します。
+<h3>transition-delay: 0.3s;: </h3>
+0.3 秒の遅延を設定します。
 
-  - border-radius: 5px;: 角を丸くします。
+<h3>border-radius: 5px;: </h3>
+角を丸くします。
 
 <h1>JavaScript ファイル (script.js) の解説</h1>
 

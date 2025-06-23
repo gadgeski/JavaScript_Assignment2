@@ -26,7 +26,7 @@
 
   - <br />: 改行タグを行い、コンテンツを読みやすくします。
 
-  - <div class="gallery-container">: 画像とボタンをまとめるためのコンテナです。
+<div class="gallery-container">: 画像とボタンをまとめるためのコンテナです。
 
     - <img id="galleryImage" src="Ver2_Stylish_Interior2025.png" alt="ギャラリー画像" />: 画像を表示するための img 要素です。
 
@@ -39,7 +39,7 @@
     - <button id="nextButton">次の画像</button>: 画像を切り替えるためのボタンです。
       - id="nextButton": JavaScript でこのボタンを特定するための ID です。
 
-  - <script src="script.js"></script>: script.js という外部のJavaScriptファイルを読み込みます。これにより、画像切り替えの動的な機能がページに追加されます。
+- <script src="script.js"></script>: script.js という外部のJavaScriptファイルを読み込みます。これにより、画像切り替えの動的な機能がページに追加されます。
 
   <h1>CSS ファイル (style.css) の解説</h1>
   このファイルは、HTML要素の見た目（色、サイズ、配置など）を定義しています。

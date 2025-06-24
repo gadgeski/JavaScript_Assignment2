@@ -1,24 +1,36 @@
 目的：今後 TypeScript や React にスケールする為の準備段階
 使用技術： JavaScript/CSS/HTML
 
+このコードは、HTML、CSS、JavaScript を使ってシンプルな画像ギャラリーを実装していますね。それぞれのファイルがどのような役割を担っているか見ていきましょう。
+
+<h1>HTML ファイル (index.html) の解説</h1>
+
+このファイルは、ウェブページの構造を定義しています。
+
 - <!DOCTYPE html>: これは、このドキュメントがHTML5で書かれていることをブラウザに伝えます。
 - <html lang="ja">: ドキュメントのルート要素です。lang="ja" は、このページの主要な言語が日本語であることを示しています。
 - <head>: ウェブページのメタ情報（ブラウザに表示されない情報）が含まれます。
-  * <meta charset="UTF-8" />: 文字エンコーディングを指定し、日本語を含む様々な文字が正しく表示されるようにします。
-  * <meta name="viewport" content="width=device-width, initial-scale=1.0" />: レスポンシブデザインのための設定です。デバイスの幅に合わせてページの表示を調整し、初期のズームレベルを1.0に設定します。
-  * <title>画像ギャラリーの例</title>: ブラウザのタブやウィンドウのタイトルバーに表示されるページのタイトルです。
-  * <link rel="stylesheet" href="style.css" />: style.css という外部のCSSファイルを読み込み、ページのスタイルを適用します。
+
+  - <meta charset="UTF-8" />: 文字エンコーディングを指定し、日本語を含む様々な文字が正しく表示されるようにします。
+
+  - <meta name="viewport" content="width=device-width, initial-scale=1.0" />: レスポンシブデザインのための設定です。デバイスの幅に合わせてページの表示を調整し、初期のズームレベルを1.0に設定します。
+
+  - <title>画像ギャラリーの例</title>: ブラウザのタブやウィンドウのタイトルバーに表示されるページのタイトルです。
+
+  - <link rel="stylesheet" href="style.css" />: style.css という外部のCSSファイルを読み込み、ページのスタイルを適用します。
+
 - <body>: ウェブページに表示されるすべてのコンテンツが含まれます。
 
   - <div class="box">JavaScript画像ギャラリー</div>: "JavaScript画像ギャラリー"というテキストを含む div 要素です。後述のCSSで特別な装飾が施されます。
 
   - <div class="gallery-container">: 画像とボタンをまとめるためのコンテナです。
-    * <img id="galleryImage" src="Ver2_Stylish_Interior2025.png" alt="ギャラリー画像" />: 画像を表示するための img 要素です。
-      * id="galleryImage": JavaScriptでこの要素を特定するためのIDです。
-      * src="Ver2_Stylish_Interior2025.png": 最初（デフォルト）に表示される画像のファイルパスです。
-      * alt="ギャラリー画像": 画像が表示されない場合に代替テキストとして表示される説明です。視覚障がい者向けのスクリーンリーダーにも読み上げられます。
-    * <button id="nextButton">次の画像</button>: 画像を切り替えるためのボタンです。
-      * id="nextButton": JavaScriptでこのボタンを特定するためのIDです。
+
+    - <img id="galleryImage" src="Ver2_Stylish_Interior2025.png" alt="ギャラリー画像" />: 画像を表示するための img 要素です。
+      - id="galleryImage": JavaScript でこの要素を特定するための ID です。
+      - src="Ver2_Stylish_Interior2025.png": 最初（デフォルト）に表示される画像のファイルパスです。
+      - alt="ギャラリー画像": 画像が表示されない場合に代替テキストとして表示される説明です。視覚障がい者向けのスクリーンリーダーにも読み上げられます。
+    - <button id="nextButton">次の画像</button>: 画像を切り替えるためのボタンです。
+      - id="nextButton": JavaScript でこのボタンを特定するための ID です。
 
   - <script src="script.js"></script>: script.js という外部のJavaScriptファイルを読み込みます。これにより、画像切り替えの動的な機能がページに追加されます。
   <h1>CSS ファイル (style.css) の解説</h1>

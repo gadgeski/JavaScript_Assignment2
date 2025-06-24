@@ -6,17 +6,17 @@
 <h1>HTML ファイル (index.html) の解説</h1>
 このファイルは、ウェブページの構造を定義しています。
 
-<h3>* <!DOCTYPE html>:</h3>
+<h3> * <!DOCTYPE html>: </h3>
 
 これは、このドキュメントが HTML5 で書かれていることをブラウザに伝えます。
 
-<h3>* <html lang="ja">: </h3>
+<h3> * <html lang="ja">: </h3>
 ドキュメントのルート要素です。lang="ja" は、このページの主要な言語が日本語であることを示しています。
 
-<h3><head>: </h3>
+<h3> * <head>: </h3>
 ウェブページのメタ情報（ブラウザに表示されない情報）が含まれます。
 
-<h3><meta charset="UTF-8" />: </h3>
+<h3> * <meta charset="UTF-8" />: </h3>
 文字エンコーディングを指定し、日本語を含む様々な文字が正しく表示されるようにします。
 
 <h3><meta name="viewport" content="width=device-width, initial-scale=1.0" />: </h3>
